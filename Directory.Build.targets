@@ -1,0 +1,11 @@
+<Project>
+	<PropertyGroup>
+		<PackAsTool>true</PackAsTool>
+		<ToolCommandName>jwk-cli</ToolCommandName>
+		<Description>Contient un cli permettant de generer un jwk</Description>
+		<PackageReadmeFile>readme.md</PackageReadmeFile>
+	</PropertyGroup>
+	<ItemGroup>
+		<None Include="../readme.md" pack="true" PackagePath="." />
+	</ItemGroup>
+</Project>
